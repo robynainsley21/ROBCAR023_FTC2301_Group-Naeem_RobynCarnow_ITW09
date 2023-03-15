@@ -23,8 +23,12 @@
                         <h1>Hi. I'm Robyn.</h1>
                     </div>
                         
-                    <div class="banner-item profile">
-                        <img  id="profile-image" src="/Images/images.jpeg" alt="profile-image">
+                    <div class="banner-item">
+                        <picture>
+                            <source media= "(max-width: 425px)" class="profile-image" srcset="/Images/profile-image-small.jpg">
+                            <source media= "(max-width: 1440px)" class="profile-image" srcset="/Images/profile-image.jpg">
+                            <img src= "/Images/profile-image.jpg"  class="profile-image" alt="profile-image">
+                        </picture>
                     </div>                        
                                        
                 </div>
@@ -38,10 +42,7 @@
                     </button>
                 </div>
 
-                <!-- <nav id="navbar">
-                    <a href="#logo">
-                        <img id="logo" src="/Images/images.jpeg" alt="">
-                    </a>
+                <nav id="navbar">
                     <div id="menu">
                         <ul id="#menu-list">
                             <a href="#about-me"  class="nav-item"><li>About Me</li></a>
@@ -51,7 +52,7 @@
                         </ul>
                     </div>
                     
-                </nav> -->
+                </nav>
             </div>
             
             
@@ -64,13 +65,15 @@
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum vero nostrum quasi aspernatur similique dolore ipsam tempora unde molestiae, accusamus neque debitis magni numquam. Beatae veritatis dolor tenetur blanditiis.</p>
             </div>
 
+            <div class="line-violet"></div>
+
             <div id="strengths">
                 <div id="strengths-container">
                     <h2>Strengths</h2>
 
                     <div class="strength">
-                        <div class="strength-image">
-                            <img src="Images/visualising.jpg" alt="">
+                        <div>
+                            <img  class="width-radius" src="Images/visualising.jpg" alt="">
                         </div>
                         <div class="strengths-description">
                             <h4>Visualising</h4>
@@ -78,8 +81,8 @@
                     </div>
 
                     <div class="strength">
-                        <div class="strength-image">
-                            <img src="Images/adaptable.jpg" alt="">
+                        <div>
+                            <img  class="width-radius" src="Images/adaptable.jpg" alt="">
                         </div>
                         <div class="strengths-description">
                             <h4>Adaptability</h4>
@@ -87,8 +90,8 @@
                     </div>
 
                     <div class="strength">
-                        <div class="strength-image">
-                            <img src="Images/team.jpg" alt="">
+                        <div>
+                            <img  class="width-radius" src="Images/team.jpg" alt="">
                         </div>
                         <div class="strengths-description">
                             <h4>Team Player</h4>
@@ -97,28 +100,92 @@
 
                 </div>
             </div>
-
+            <div class="line-violet"></div>
             <div id="education">
+                <h2>Education</h2>
                 <div id="education-container">
+                    
                     <div class="education">
-                        <div class="education-image">
-                            <img src="" alt="">
+                        <div>
+                            <img  class="width-radius" src="Images/school-image.jpg" alt="">
                         </div>
                         <div class="education-description">
-                            
+                            <a href="https://www.facebook.com/tuscanyglenhighschool/"><h3>Tuscany Glen Secondary</h3></a>
+                            <h4>2014 - 2018</h4>
+                            <h4>Achievements</h4>
+                                <li>Deputy Head Girl</li>
+                                <li>Second-best Achiever</li>
+                        </div>
+                    </div>
+
+                    <div class="line-platinum"></div>
+
+                    <div class="education">
+                        <div>
+                            <img  class="width-radius" src="Images/codespace.jpeg" alt="">
+                        </div>
+                        <div class="education-description">
+                            <a href="https://www.codespace.co.za/"><h3>CodeSpace Academy</h3></a>
+                            <h4>2023 - Present</h4>
+                            <h4>Achievements</h4>
+                                <li>Introduction to Web</li>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id="skills">
-                
+                <h2>Skills</h2>
+                <div id="skills-container">
+                    <div class="grid-item figma">
+                        <div class="grid-image">
+                            <img src="/Images/figma.png" alt="figma-image">
+                        </div>
+                        <div class="grid-text">
+                            <h4>Figma</h4>
+                        </div>                        
+                    </div>
+                    <div class="grid-item responsive">
+                        <div class="grid-image">
+                            <img src="/Images/responsive.jpeg" alt="responsive-image">
+                        </div>
+                        <div class="grid-text">
+                            <h4> Web Responsiveness</h4>
+                        </div>                        
+                    </div>
+                    <div class="grid-item grid">
+                        <div class="grid-image">
+                            <img src="/Images/grid.png" alt="grid-image">
+                        </div>
+                        <div class="grid-text">
+                            <h4>Grid</h4>
+                        </div>                        
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-image">
+                            <img src="/Images/flexbox.png" alt="flexbox-image">
+                        </div>
+                        <div class="grid-text">
+                            <h4>Flexbox</h4>
+                        </div>                        
+                    </div>
+                    
+                    <div class="grid-item">
+                        <div class="grid-image">
+                            <img src="/Images/html.jpg" alt="html-image">
+                        </div>
+                        <div class="grid-text">
+                            <h4>HTML</h4>
+                        </div>                        
+                    </div>
+                                    
+                </div>
             </div>
         </section>
 
         <footer>
             <div id="contact-me">
-
+                <a href=""><h2>Contact Me</h2></a>
             </div>
 
         </footer>
