@@ -17,26 +17,17 @@ body{
     margin: 0;
 }
 
-.profile-image{
-    border-radius: 100%;
-    position: absolute;
-    
+#banner-content h1{
+    color:#D9D9D9;
+    font-family: "Courgette", sans-serif;
 }
 
 #banner-content{
     display: flex;
-} 
-
-.banner-item{
-    width: 50%;
-    padding: 4%;
-    margin-top: 10%;
 }
 
-
-.intro-text{
-    font-family: 'Courgette', cursive;
-    color: #E0DDCF;
+#profile-image{
+    border-radius: 100%;
 }
 
 
@@ -93,39 +84,11 @@ body{
     } 
     
    /* BANNER */
-   .profile-image{
-    width: 210px;
-    height: 210px;
-    top: 0;
-    left: 215px;
-    }    
-
-    .intro-text{
-        font-size: 1.5rem;
-        margin-left: 3%;
-    }
-
-    #dev-title{
-        color: #E0DDCF;
-        margin-left: 1rem;
-        margin-top: 2rem;
-    }
-
-    #dev-title button{
-        padding: 2%;
-        border: 1px solid #E0DDCF;
-        border-radius: 5px;
-        background-color: #E0DDCF;
-    }
+   
     
-    #dev-title button a{
-        text-decoration: none;
-        color: #5D2B60;
-        font-weight: bold;
-    }
-
-    .intro-statement{
-        margin: 2.4rem auto;
+    #profile-image{
+        width: 100px;
+        height: 100px;
     }
 
     /* ABOUT ME */
@@ -262,51 +225,11 @@ body{
     } 
     
    /* BANNER */
-   .profile-image{
-    border-radius: 100%;
-    width: 400px;
-    top: 0;
-    right: 4px;
-    }    
+   
 
-    .intro-text{
-        font-size: 2.5rem;
-        margin-left: 3%;
-    }
-
-    #dev-title{
-        color: #E0DDCF;
-        margin-left: 3rem;
-    }
-
-    #dev-title h2{
-        font-size: 2rem;
-    }
-
-    #dev-title h3{
-        font-size: 1.5rem;
-    }
-
-    #dev-title h4{
-        font-size: 1.2rem;
-    }
-
-    #dev-title button{
-        padding: 2%;
-        border: 1px solid #E0DDCF;
-        border-radius: 5px;
-        background-color: #E0DDCF;
-    }
-    
-    #dev-title button a{
-        text-decoration: none;
-        color: #5D2B60;
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
-
+  
     .intro-statement{
-        margin: 2.3rem auto;
+        margin: .6rem auto;
     }
 
     /* ABOUT ME */
@@ -447,7 +370,7 @@ body{
     #navbar li{
         font-size: 1.1rem;
         color:#D9D9D9;
-        line-height: 2.5rem;
+        line-height: 2rem;
     }
 
     #navbar a{
@@ -455,61 +378,10 @@ body{
     } 
     
    /* BANNER */
-    .banner-item{
-        margin-top: 0;
-    }
-
-   .profile-image{
-    border-radius: 100%;
-    width: 400px;
-    top: 0;
-    right: 4px;
-    }    
-
-    .intro-text{
-        font-size: 2.5rem;
-        margin-left: 3.5rem;
-        padding: 3%;
-    }
-
-    #dev-title{
-        color: #E0DDCF;
-        margin-left: 6rem;
-    }
-
-    #dev-title h2{
-        font-size: 2rem;
-    }
-
-    #dev-title h3{
-        font-size: 1.5rem;
-    }
-
-    #dev-title h4{
-        font-size: 1.2rem;
-    }
-
-    #dev-title button{
-        padding: 2%;
-        border: 1px solid #E0DDCF;
-        border-radius: 5px;
-        background-color: #E0DDCF;
-    }
-    
-    #dev-title button a{
-        text-decoration: none;
-        color: #5D2B60;
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
-
-    .intro-statement{
-        margin: 2.3rem auto;
-    }
 
     /* ABOUT ME */
     #about-me{
-        padding: 13%;
+        padding: 10%;
         text-align: center;
     }
 
@@ -535,6 +407,10 @@ body{
         color:#D9D9D9;
     }
 
+    .strength img{
+        width: 250px;
+    }
+
     /* EDUCATION */
     #education{
         text-align: center;
@@ -552,6 +428,10 @@ body{
         border-radius: 5px;       
     }  
 
+    .education img{
+        width: 250px;
+    }
+
     .education-description a{
         color:#D9D9D9;
     }
@@ -563,7 +443,7 @@ body{
 
     /* SKILLS */
     #skills{
-        margin-top: 20%;
+        margin: 12% 5%;
     }
 
     #skills h2{
@@ -605,7 +485,7 @@ body{
         width: 40%;
         height: 2px;
         background-color:#D9D9D9;
-        margin: 15% auto;
+        margin: 10% auto;
     }
 
     /* FOOTER */

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="/CSS/contact.css">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <div id="contact">
+        <div class="contact-item">
+            <h2>Send Me a Message!</h2>
+            <form action="https://formsubmit.co/robynainsley2i@gmail.com" method="POST">
+            
+                <div class="email-subject">
+                    <label for="email-subject">Choose the subject of your message: </label>
+
+                    <input list="email-subject" id="email-choices">
+                    <datalist name="email-subject" id="email-subject" required>
+                        <option value="Employment">
+                        <option value="Offered Services">
+                        <option value="General Enquiry">                        
+                    </datalist>
+                    
+                </div>
+
+                <div>
+                    <p><label for="message-to-me">Type Your Message Here:</label></p>
+                    <textarea id="message-to-me" name="message" rows="5" cols="33"></textarea>
+                </div>                
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="flex contact-item">
+            <h2>Or Contact Me Here:</h2>
+            <div class="icon email">
+                <i class=" fa-regular fa-envelope fa-5x"></i>
+                <h3>robynainsley2i@gmail.com</h3>
+            </div>
+            <i class="icon fa-brands fa-twitter fa-5x"></i>
+        </div>
+    </div>
+</body>
+</html>
