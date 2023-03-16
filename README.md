@@ -13,4 +13,9 @@ HTML, CSS, Figma, GitHub
 ## Website Features Incorporated
 CSS Style Elements, CSS Box Model, Positioning, Form Validation, Responsive Design, Flexbox
 
-##GitHub Profile
+## GitHub
+https://github.com/robynainsley21
+
+## Figma File
+https://www.figma.com/file/WUF13bbfq2NHHuaeMgSZKn/ROBCAR023_FTC2301_GroupNaeem_RobynCarnow_ITW9?node-id=0-1&t=M5ZPvnCxQEGL8Sh7-0
+
