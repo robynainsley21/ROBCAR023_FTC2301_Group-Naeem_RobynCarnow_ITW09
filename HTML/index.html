@@ -9,6 +9,10 @@
         <!-- STYLESHEETS -->
         <link rel="stylesheet" href="/CSS/styles.css">
 
+        <!-- FONTAWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,29 +20,32 @@
     </head>
 
     <body>
+        
         <header>
+            <nav id="navbar">                    
+                <ul id="#menu-list">
+                    <a href="#banner" class="nav-item"><li>Home</li></a>
+                    <a href="#about-me" class="nav-item"><li>About Me</li></a>
+                    <a href="#strengths" class="nav-item"><li>Strengths</li></a>
+                    <a href="#education" class="nav-item"><li>Education</li></a>
+                    <a href="#skills" class="nav-item"><li>Skills</li></a>
+                </ul>
+            </nav>
             <div id="banner">
-                <div id="banner-content">
-                    <div class="div-item">
-                        <h1>Robyn Carnow</h1>
+                
+                    <div class="intro-title banner-item">
+                        <h1>Hi, I'm Robyn.</h1>
                     </div>
-                    <div id="profile-image" class="div-item">
-                        <img src="/Images/profile-image.jpg" alt="profile-image">
+                    <div class="banner-item intro-text">
+                        <h2>Robyn Carnow</h2>
+                        <h3>Web Developer in training</h3>
+                        <h4>something catchy</h4>
+                        <div class="github">
+                            <a href="https://github.com/robynainsley21"><i class="fa-brands fa-github fa-2x"></i></a>
+                        </div>
+                        <button ><a class="contact-button" href="#contact-me">Contact</a></button> 
                     </div>
-                </div>
-
-                <nav id="navbar">
-                    <div id="menu">
-                        <ul id="#menu-list">
-                            <a href="#banner" class="nav-item"><li>Home</li></a>
-                            <a href="#about-me" class="nav-item"><li>About Me</li></a>
-                            <a href="#strengths" class="nav-item"><li>Strengths</li></a>
-                            <a href="#education" class="nav-item"><li>Education</li></a>
-                            <a href="#skills" class="nav-item"><li>Skills</li></a>
-                        </ul>
-                    </div>
-                    
-                </nav>
+                
             </div>
             
             
@@ -48,7 +55,7 @@
         <section>
             <div id="about-me">
                <h2>About Me</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum vero nostrum quasi aspernatur similique dolore ipsam tempora unde molestiae, accusamus neque debitis magni numquam. Beatae veritatis dolor tenetur blanditiis.</p>
+               <h3><em>I am a great lover of coffee and rainy weather, the feeling of starting a new reading book, and uncrowded places. </em></h3> 
             </div>
 
             <div class="line-violet"></div>
